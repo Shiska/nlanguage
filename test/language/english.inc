@@ -1,0 +1,2 @@
+ENTRY: <WELCOME> "Welcome"
+ENTRY: <SELECTION> "Choose"

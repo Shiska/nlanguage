@@ -1,0 +1,45 @@
+{
+    "user": "Shiska",
+    "repo": "nlanguage",
+    "entry": "test/test.pwn",
+    "output": "test/test.amx",
+    "dependencies": [
+        "sampctl/pawn-stdlib"
+    ],
+    "dev_dependencies": [
+        "pawn-lang/YSI-Includes"
+    ],
+    "builds": [
+        {
+            "name": "amx",
+            "args": [
+                "-;+", "-(+", "-d3"
+            ]
+        },
+        {
+            "name": "compat"
+        },
+        {
+            "name": "lst",
+            "args": [
+                "-l"
+            ]
+        },
+        {
+            "name": "asm",
+            "args": [
+                "-a"
+            ]
+        },
+        {
+            "name": "report",
+            "args": [
+                "-r"
+            ],
+            "input": "nlanguage.inc"
+        }
+    ],
+    "runtime": {
+        "mode": "y_testing"
+    }
+}
